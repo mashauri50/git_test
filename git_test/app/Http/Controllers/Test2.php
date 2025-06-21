@@ -14,4 +14,9 @@ class Test2 extends Controller{
     return 'testing is alread done';
     
  }
+
+ public function test(){
+
+    return 'nothing';
+ }
 }
