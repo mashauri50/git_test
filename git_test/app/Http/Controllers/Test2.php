@@ -10,7 +10,8 @@ use Illuminate\Routing\Controller as BaseController;
 class Test2 extends Controller{
 
  public function start(){
-
+   $rating = controller();
+    return 'testing is alread done'
     
  }
 }
