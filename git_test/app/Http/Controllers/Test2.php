@@ -19,4 +19,11 @@ class Test2 extends Controller{
 
     return 'nothing';
  }
+
+
+ public function testBranchIncorporated(){
+   
+   return 'this changes was made only for master branch';
+
+ }
 }
