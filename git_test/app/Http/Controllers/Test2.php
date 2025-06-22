@@ -26,4 +26,13 @@ class Test2 extends Controller{
    return 'this changes was made only for master branch';
 
  }
+
+ public function testUser(Request $request){
+ 
+   $user = User::all();
+   
+
+   return Response()->Json(['messege'=> 'mashauri testing', $user, 200]);
+
+ }
 }
