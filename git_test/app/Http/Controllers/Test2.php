@@ -15,8 +15,8 @@ class Test2 extends Controller{
     
  }
 
- public function test(){
+ public function sortByName(){
 
-    return 'nothing';
+   return 'my branch name is test_2';
  }
 }
