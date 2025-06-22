@@ -35,4 +35,9 @@ class Test2 extends Controller{
    return Response()->Json(['messege'=> 'mashauri testing', $user, 200]);
 
  }
+
+ public function lastTable(Request $request){
+
+  return 'this is the last branch to test';
+ }
 }
